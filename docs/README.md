@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .discord-button {
+      background-color: #fff;
+      color: red;
+      padding: 10px 20px;
+      text-decoration: none;
+      border: 2px solid red;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .discord-button:hover {
+      background-color: red;
+      color: #fff;
+    }
+  </style>
+</head>
 
+<body>
+  <!-- شريط التنقل -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">حولنا</a></li>
+          <li><a href="#news">أخبار</a></li>
+          <li><a href="#events">الفعاليات</a></li>
+          <li><a href="https://discord.gg/ZBD5ZjTS" target="_blank">سيرفرنا دسكورد</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- قسم الهيرو -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Gamers Community</h1>
+      <p>مجتمع اللاعبين - حيث يجتمع عشاق الألعاب لتبادل الخبرات والتنافس</p>
+      <a href="#about" class="btn">اكتشف المزيد</a>
+    </div>
+  </section>
+
+  <!-- قسم حولنا -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-content">
+        <h2>حول مجتمعنا</h2>
+        <p>
+          يهدف Gamers Community إلى جمع جميع عشاق الألعاب الإلكترونية، ويوفر منصة للتفاعل، تبادل النصائح، والمشاركة في البطولات والفعاليات المتنوعة.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- قسم الأخبار -->
+  <section id="news" class="news-section">
+    <div class="container">
+      <h2>أحدث الأخبار</h2>
+      <div class="news-grid">
+        <div class="news-card">
+
+          <h3>إطلاق لعبة جديدة</h3>
+          <p>تابع آخر الإعلانات والآخبار الخاصة بإصدارات الألعاب المنتظرة.</p>
+        </div>
+        <div class="news-card">
+          <h3>تحديثات مهمة</h3>
+          <p>اكتشف التحديثات والميزات الجديدة لألعابك المفضلة.</p>
+        </div>
+        <div class="news-card">
+          <h3>تحديات ومسابقات</h3>
+          <p>شارك في البطولات الحصرية واربح جوائز قيمة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم الفعاليات -->
+  <section id="events" class="events-section">
+    <div class="container">
+      <h2>الفعاليات القادمة</h2>
+      <div class="events-grid">
+        <div class="event-card">
+          <h3>تنافس Gamers</h3>
+          <p>تنافس مع أفضل اللاعبين في بطولة مميزة.</p>
+          <a href="https://discord.com/channels/1207733774511775804/1360556825472270450" class="btn">تنافس</a>
+        </div>
+        <div class="event-card">
+          <h3>لقاء اللاعبين</h3>
+          <p>فعالية تجمع اللاعبين لتبادل الخبرات والتعرف على الجديد.</p>
+          <a href="https://discord.com/channels/1207733774511775804/1207733774511775808" target="_blank" class="discord-button">
+            انضم إلى غرفة اللاعبين على Discord
+</a>
+                  </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+            هو مجتمع اللاعبين الأول للتواصل والمنافسة في عالم الألعاب الإلكترونية.</p>
+            <p>Gamers Community 
+
+          <div class="social-links">
+            <a href="https://discord.gg/ZBD5ZjTS" target="_blank"><i class="fab fa-discord"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="#about">حولنا</a></li>
+            <li><a href="#news">أخبار</a></li>
+            <li><a href="#events">الفعاليات</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> مدينة الألعاب</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Gamers Community. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="loginModal" class="modal">
+    <div
